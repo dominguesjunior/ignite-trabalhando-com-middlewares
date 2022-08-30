@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "start": "cd /home/application/app && pm2-runtime start /home/application/app/ecosystem.config.js –env production",
+    "build": "",
   },
   "dependencies": {
     "cors": "^2.8.5",
